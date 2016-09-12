@@ -1,0 +1,143 @@
+body {
+	margin:0px 0px; padding:0px;
+	text-align:center;
+	font-size: 0.5em;
+}
+
+a {
+	color: black;
+}
+
+h1 {
+	font-size: 3em;
+}
+
+h3 {
+	font-variant: small-caps;
+}
+	
+#content {
+	color: #352310;
+	width: 1024px;
+	margin: 100px auto;
+	text-align: left;
+	font-family: 'Georgia', serif;
+	font-size: 2em;
+	line-height: 150%;
+}
+
+#contentborder {
+	background-color:#FFFFFF;
+	//border:1px dashed #333333;
+	margin-bottom:32px;
+	margin-top:32px;
+	padding-top:0px;
+	position:absolute;
+	top:20px;
+	width:1024px;
+	z-index:0;
+}
+
+#abstract, #features, #news, #screenshotContainer, #imprint {
+	left: 0px;
+	margin-left: 64px;
+	margin-right: 64px;
+}
+
+#language {
+    text-align: center;
+    margin-top: 32px;
+    margin-bottom: -32px;
+}
+
+#language img {
+    margin: 0 5px 0 5px;
+}
+
+#presskit-download
+{
+	border:1px #999 solid;
+	color:#666;
+	line-height:32px;
+	border-radius:2px;
+	height:32px;
+	text-align:center;
+	background-color:#ddd;	
+	margin-bottom:12px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 620px;
+}
+
+#logo {
+	position: relative;
+	width: 256px;
+	height: 256px;
+	top: -180px;
+	left: 10px;
+	background: url('logo.png');
+	z-index: 1;
+}
+
+#screenshots {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 620px;
+}
+
+#screenshots img.iphone {
+	width: 160px;
+	background:none repeat scroll 0 0 #eee;
+	border:1px solid #ccc;
+	margin:8px 26px 16px 0;
+	padding: 8px;
+	width:160px;
+}
+
+#screenshots img.ipad {
+	width: 160px;
+	background:none repeat scroll 0 0 #eee;
+	border:1px solid #ccc;
+	margin:8px 26px 16px 0;
+	padding: 8px;
+	width:264px;
+}
+
+.appstore {
+	position: relative;
+	float: right;
+	top: 0px;
+	left: 40px;
+}
+
+.appstore img {
+	border: 0;
+}
+
+#footer {
+	bottom: -80px;
+	font-size: 0.5em;
+	line-height: 100%;
+	margin-bottom: 16px;
+	margin-top: 16px;
+	padding-bottom: 20px;
+	position: relative;
+	text-align: center;
+	color: black;
+}
+
+#contact {
+	margin-top: 32px;
+}
+
+#contact a {
+    color: #352310;
+}
+
+#screenshot-caption { text-align: left; }
+
+#screenshot-caption b { display: block; margin-right: 80px; }
+
+#screenshot-caption span { float: right; }

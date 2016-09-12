@@ -1,0 +1,153 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de">
+<head>
+	<title>Naval Combat for iMessage</title>
+	<meta http-equiv="Content-Type" content="application/xhtml+xml; charset=utf-8" />
+	<meta name="description" content="Naval Combat is the classic guessing game Battleships for the iOS 10 Messages App." />
+	<meta name="keywords" content="battleships, battleship, broadsides, naval, combat, game, navalbattle, strategy, casual, board, battle" />
+	<meta name="robots" content="index, follow" />
+	<link rel="shortcut icon" href="./common/favicon.ico" type="image/x-icon" />
+	<link rel="stylesheet" type="text/css" href="./common/screen.css" media="screen" />
+
+	<script type="text/javascript" src="./common/jquery-1.4.3.min.js"></script>
+	<script type="text/javascript" src="./common/jquery.fancybox-1.3.4.js"></script>
+	<script type="text/javascript" src="./common/jquery.mousewheel-3.0.4.pack.js"></script>
+	<link rel="stylesheet" type="text/css" href="./common/jquery.fancybox-1.3.4.css" media="screen" />
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$("a[rel=screenshots_group]").fancybox({
+				'transitionIn'		: 'elastic',
+				'transitionOut'		: 'elastic',
+				'showCloseButton'	: false,
+				'titlePosition' 	: 'inside',
+				'titleFormat'		: function(title, currentArray, currentIndex, currentOpts) {
+					return '<div id="screenshot-caption"><span><a href="javascript:;" onclick="$.fancybox.close();"><img src="./images/closelabel.gif" /></a></span>' + (title && title.length ? '<b>' + title + '</b>' : '' ) + 'Bild ' + (currentIndex + 1) + ' von ' + currentArray.length + '</div>';
+				}
+			});
+		});
+	</script>
+</head>
+<body background="./images/background.jpg">
+
+<div id="header">
+	<!-- intentionally left blank -->
+</div>
+<div id="logo"></div>
+
+<div id="content">
+	<div id="contentborder">
+	<img src="images/header.png" alt="Naval Combat" />
+		<div id="abstract">
+			<div class="appstore">
+				<a href="https://itunes.apple.com/us/app/naval-combat-for-imessage/id1152033691?ls=1&mt=8">
+					<img src="./images/appstore.png" />
+				</a>	
+			</div>
+			<p><strong>Naval Combat for iMessage</strong> brings the classic Battleships guessing game to the Messages app on your iOS device. You can play with your friends right in your Messages conversation without even leaving the app.</p>
+		</div>
+		<div style="text-align: center">
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/RlJMKsI3i5U" frameborder="0" allowfullscreen></iframe>
+		</div>
+		
+		<div id="screenshotContainer">
+			<h2>Screenshots</h2>
+			<a href="./Naval_Combat_fuer_iMessage_Pressekit.zip">
+			<div id="presskit-download">Download our press kit with high resolution images (15MB)</div>
+			</a>
+			<div id="screenshots">
+			<p>
+				<a rel="screenshots_group" title="Naval Combat for iMessage is directly integrated into the iMessage app on iOS 10." href="./images/chat_histroy_iphone.png" title=""><img alt="Naval Combat for iMessage is directly integrated into the iMessage app on iOS 10." src="./images/chat_histroy_iphone.png" class="iphone"/></a>
+				<a rel="screenshots_group" title="Hide your ships so that your opponent won’t sink them too fast." href="./images/hide_ships_iphone.png"><img alt="Hide your ships so that your opponent won’t sink them too fast." src="./images/hide_ships_iphone.png" class="iphone" /></a>
+				<a rel="screenshots_group" title="Sink your opponent’s ships before they find your vessels." href="./images/your_turn_iphone.png" title=""><img alt="Sink your opponent’s ships before they find your vessels." src="./images/your_turn_iphone.png" class="iphone"/></a>
+				<a rel="screenshots_group" title="Hide your ships so that your opponent won’t sink them too fast." href="./images/hide_ships_ipad.png" title=""><img alt="Hide your ships so that your opponent won’t sink them too fast." src="./images/hide_ships_ipad.png" class="ipad"/></a>
+				<a rel="screenshots_group" title="Sink your opponent’s ships before they find your vessels." href="./images/your_turn_ipad.png" title=""><img alt="Sink your opponent’s ships before they find your vessels." src="./images/your_turn_ipad.png" class="ipad" /></a>
+			</p>
+		</div>
+		</div>
+		
+		<div id="features">
+			<h2>Features</h2>
+			<h3>directly integrated into the iOS 10 Messages App</h3>
+			<ul>
+				<li>All actions can be performed without even leaving the iOS 10 Messages App</li>
+				<li>Animated Messages allow you to backtrace your opponent's turn at a glance</li>
+			</ul>
+
+			<h3>usability</h3>
+			<ul>
+				<li>Naval Combat for iMessage is optimized for all iPhones and iPads that are capable of running iOS 10</li>
+				<li>Naval Combat for iMessage works in portrait and landscape mode</li>
+			</ul>
+			
+			<h3>supported languages and accessibility</h3>
+			<ul>
+				<li>The following languages are supported: English, German, French, Chinese (simplified), Chinese (traditional)</li>
+				<li>Naval Combat for iMessage supports VoiceOver</li>
+			</ul>
+
+		</div>
+		
+		<div id="imprint">
+				<h2>Imprint</h2>
+				<p>
+                	As required by German law(§ 5 TMG):
+                </p>
+                <p>
+					<strong>Bottled Software GmbH</strong><br>
+					Kettelerstr. 25<br>
+					68789 St. Leon-Rot
+					Germany
+				</p>
+				<p>
+					<strong>Managed by:</strong><br>
+					Managing directors: Florian Reinhart and Kevin Schlieper
+				</p>
+				<p>
+					<strong>Contact:</strong><br>
+					Email:
+					<script type="text/javascript">
+						<!--
+						// Email obfuscator script 2.1 by Tim Williams, University of Arizona
+						// Random encryption key feature by Andrew Moulden, Site Engineering Ltd
+						// This code is freeware provided these four comment lines remain intact
+						// A wizard to generate this code is at http://www.jottings.com/obfuscator/
+						{ coded = "yhr1@K1YYnsQ71rYx5zs.Qs"
+							key = "3bGrVCyqNn4DkW8JgYmxsdjTKUzEcSoRhLauOBPM2vf7Qi6plH9FI10Xt5weZA"
+							shift=coded.length
+							link=""
+							for (i=0; i<coded.length; i++) {
+								if (key.indexOf(coded.charAt(i))==-1) {
+									ltr = coded.charAt(i)
+									link += (ltr)
+								}
+								else {     
+									ltr = (key.indexOf(coded.charAt(i))-shift+key.length) % key.length
+									link += (key.charAt(ltr))
+									}
+								}
+								document.write("<a href='mailto:"+link+"'>"+link+"</a>")
+							}
+						//-->
+					</script><br>
+					Web: <a href="http://www.bottledsoftware.de" target="_blank">www.bottledsoftware.de</a>
+                </p>
+                <p>
+					<strong>Registereintrag:</strong><br>
+					District Court Mannheim HRB 713981
+				</p>
+				<p>
+					<strong>Umsatzsteuer-ID:</strong><br>
+					Tax identification number according to §27 a Umsatzsteuergesetz: DE282043778
+				</p>
+			</div>
+
+		<div id="footer">
+			This site uses scripts from <a href="http://jquery.com">jQuery</a> and <a href="http://fancybox.net">Fancybox</a>.
+		</div>
+	</div>
+</div>
+
+</body>
+</html>
+
